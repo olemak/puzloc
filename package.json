@@ -1,0 +1,22 @@
+{
+  "name": "puzloc",
+  "version": "1.0.0",
+  "description": "Multi-game puzzle platform monorepo",
+  "scripts": {
+    "start": "nx run-many --target=serve --all",
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all"
+  },
+  "keywords": ["puzzle", "games", "monorepo", "nx"],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "nx": "21.6.5"
+  }
+}
