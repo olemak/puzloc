@@ -27,7 +27,7 @@ git --version     # Any recent version
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/olemak/puzloc.git
 cd puzloc
 
 # Install Node dependencies

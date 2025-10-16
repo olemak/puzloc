@@ -8,7 +8,7 @@
 
 ```bash
 # 1. Clone repo
-git clone <repo-url> && cd puzloc
+git clone https://github.com/olemak/puzloc.git && cd puzloc
 
 # 2. Install dependencies
 npm install

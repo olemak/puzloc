@@ -34,7 +34,7 @@ A Hangman/Countdown-style phrase guessing game.
 
 ```bash
 # 1. Clone and setup
-git clone <repo-url>
+git clone https://github.com/olemak/puzloc.git
 cd puzloc
 npm install
 

@@ -138,7 +138,13 @@ This project is designed to explore:
 
 ### 🔧 Quick Start
 
+**GitHub**: https://github.com/olemak/puzloc
+
 ```bash
+# Clone the repository
+git clone https://github.com/olemak/puzloc.git
+cd puzloc
+
 # Start infrastructure
 cd infrastructure/docker
 docker-compose up -d
