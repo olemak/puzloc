@@ -1,5 +1,11 @@
 # 🎮 Puzloc - Multi-Game Puzzle Platform
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-puzloc-blue?logo=github)](https://github.com/olemak/puzloc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![Svelte](https://img.shields.io/badge/Svelte-Kit-FF3E00?logo=svelte)](https://kit.svelte.dev/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql)](https://www.postgresql.org/)
+
 A monorepo project for exploring modern full-stack technologies through building an engaging puzzle game platform.
 
 ## 🎯 Concept
