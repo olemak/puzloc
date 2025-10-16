@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Multi-game puzzle platform monorepo",
   "scripts": {
+    "dev": "./scripts/dev.sh",
+    "setup:backend": "./scripts/setup-backend.sh",
+    "docker:start": "cd infrastructure/docker && docker-compose up -d && cd ../..",
+    "docker:stop": "cd infrastructure/docker && docker-compose down && cd ../..",
+    "docker:logs": "cd infrastructure/docker && docker-compose logs -f && cd ../..",
+    "db": "docker exec -it puzloc-postgres psql -U puzloc_user -d puzloc",
     "start": "nx run-many --target=serve --all",
     "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all",

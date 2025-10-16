@@ -28,6 +28,39 @@ A Hangman/Countdown-style phrase guessing game.
 - Daily phrases with varying difficulty
 - Category hints available
 
+## ⚡ Quick Start
+
+**Just want to start coding?**
+
+```bash
+# 1. Clone and setup
+git clone <repo-url>
+cd puzloc
+npm install
+
+# 2. Start development environment
+npm run dev
+
+# 3. Create backend (automated)
+npm run setup:backend
+
+# 4. Start coding!
+cd apps/backend
+dotnet watch run
+```
+
+**OR** follow the detailed guide: **[START_HERE.md](START_HERE.md)** 📖
+
+### Helpful Commands
+
+```bash
+npm run dev              # Start Docker services
+npm run setup:backend    # Auto-create backend project
+npm run docker:start     # Start Docker only
+npm run docker:stop      # Stop Docker services
+npm run db               # Open PostgreSQL CLI
+```
+
 ## 🏗️ Architecture
 
 ### Monorepo Structure
